@@ -1,0 +1,137 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.quantity-status:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+/* Payment */
+.success {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #28a745;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+}
+
+.success, .success span {
+    transition: 400ms;
+}
+
+.success .text {
+    transform: translateX(100px);
+    color: white;
+    font-weight: bold;
+}
+
+.success .icon {
+    position: absolute;
+    border-left: 1px solid #218838;
+    transform: translateX(290px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.success:hover {
+    background: #218838;
+}
+
+.success:hover .text {
+    color: transparent;
+}
+
+.success:hover .icon {
+    width: 350px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.success:focus {
+    outline: none;
+}
+
+.success:active .icon svg {
+    transform: scale(0.8);
+}
+
+/* Delete */
+.delete {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+}
+
+.delete, .delete span {
+    transition: 400ms;
+}
+
+.delete .text {
+    transform: translateX(100px);
+    color: white;
+    font-weight: bold;
+}
+
+.delete .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(290px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.delete:hover {
+    background: #ff3636;
+}
+
+.delete:hover .text {
+    color: transparent;
+}
+
+.delete:hover .icon {
+    width: 350px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.delete:focus {
+    outline: none;
+}
+
+.delete:active .icon svg {
+    transform: scale(0.8);
+}

@@ -1,0 +1,28 @@
+.background-container {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    image-rendering: crisp-edges;
+}
+
+.background-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content-container {
+    position: relative;
+    z-index: 10;
+}
+
+.form-container {
+    background-color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
