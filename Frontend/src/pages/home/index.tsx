@@ -69,7 +69,7 @@ const Home: React.FC = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 select-none outline-none">
                     <div className="shadow-2xl rounded-lg overflow-hidden max-w-lg">
-                        <NavLink to="#1">
+                        <NavLink to="/product">
                             <div className="flex items-center justify-center h-52">
                                 <img src="https://via.placeholder.com/300" className="object-cover rounded-full border-4 border-blue-500" width={128} height={128} />
                             </div>
@@ -86,19 +86,12 @@ const Home: React.FC = () => {
                                 <span className="text-lg font-semibold text-red-500">
                                     <i>100.00$</i>
                                 </span>
-
-                                {/* <button className="button" onClick={handleBuyFoodSuccess}>
-                                    Add To Menu
-                                    <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
-                                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </button>  */}
                             </div>
                         </NavLink>
                     </div>
 
                     <div className="shadow-2xl rounded-lg overflow-hidden max-w-lg">
-                        <NavLink to="#1">
+                        <NavLink to="/product">
                             <div className="flex items-center justify-center h-52">
                                 <img src="https://via.placeholder.com/300" className="object-cover rounded-full border-4 border-blue-500" width={128} height={128} />
                             </div>
@@ -115,19 +108,12 @@ const Home: React.FC = () => {
                                 <span className="text-lg font-semibold text-red-500">
                                     <i>100.00$</i>
                                 </span>
-
-                                {/* <button className="button" onClick={handleBuyFoodSuccess}>
-                                    Add To Menu
-                                    <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
-                                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </button>  */}
                             </div>
                         </NavLink>
                     </div>
 
                     <div className="shadow-2xl rounded-lg overflow-hidden max-w-lg">
-                        <NavLink to="#1">
+                        <NavLink to="/product">
                             <div className="flex items-center justify-center h-52">
                                 <img src="https://via.placeholder.com/300" className="object-cover rounded-full border-4 border-blue-500" width={128} height={128} />
                             </div>
@@ -144,19 +130,12 @@ const Home: React.FC = () => {
                                 <span className="text-lg font-semibold text-red-500">
                                     <i>100.00$</i>
                                 </span>
-
-                                {/* <button className="button" onClick={handleBuyFoodSuccess}>
-                                    Add To Menu
-                                    <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
-                                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </button>  */}
                             </div>
                         </NavLink>
                     </div>
 
                     <div className="shadow-2xl rounded-lg overflow-hidden max-w-lg">
-                        <NavLink to="#1">
+                        <NavLink to="/product">
                             <div className="flex items-center justify-center h-52">
                                 <img src="https://via.placeholder.com/300" className="object-cover rounded-full border-4 border-blue-500" width={128} height={128} />
                             </div>
@@ -173,19 +152,12 @@ const Home: React.FC = () => {
                                 <span className="text-lg font-semibold text-red-500">
                                     <i>100.00$</i>
                                 </span>
-
-                                {/* <button className="button" onClick={handleBuyFoodSuccess}>
-                                    Add To Menu
-                                    <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
-                                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </button>  */}
                             </div>
                         </NavLink>
                     </div>
 
                     <div className="shadow-2xl rounded-lg overflow-hidden max-w-lg">
-                        <NavLink to="#1">
+                        <NavLink to="/product">
                             <div className="flex items-center justify-center h-52">
                                 <img src="https://via.placeholder.com/300" className="object-cover rounded-full border-4 border-blue-500" width={128} height={128} />
                             </div>
@@ -202,13 +174,6 @@ const Home: React.FC = () => {
                                 <span className="text-lg font-semibold text-red-500">
                                     <i>100.00$</i>
                                 </span>
-
-                                {/* <button className="button" onClick={handleBuyFoodSuccess}>
-                                    Add To Menu
-                                    <svg className="icon" viewBox="0 0 24 24" fill="currentColor">
-                                        <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </button>  */}
                             </div>
                         </NavLink>
                     </div>

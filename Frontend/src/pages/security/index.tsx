@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import '../security/style.css';
 import { NavLink, useNavigate } from "react-router-dom";
+import { ThreeDots } from "react-loader-spinner";
 
 const SignIn: React.FC = () => {
+    
     const navigate = useNavigate();
+    const [isLoading, setIsLoading] = useState(false);
+    
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        navigate('/');
+        setIsLoading(true);
+
+        setTimeout(() => {
+            setIsLoading(false);
+            navigate('/');
+        }, 3000);
     };
 
     return (
@@ -29,7 +38,7 @@ const SignIn: React.FC = () => {
 
                             <div className="flex justify-between items-center mb-4">
                                 <div className="flex items-center space-x-2">
-                                    <input type="checkbox" id="rememberMe" className="form-checkbox h-4 w-4 text-blue-600 border border-blue-500"/>
+                                    <input type="checkbox" id="rememberMe" className="form-checkbox h-4 w-4 text-blue-600 border-2 border-blue-500"/>
                                     <label htmlFor="rememberMe" className="font-bold text-[15px] text-blue-400">Remember me</label>
                                 </div>
 
@@ -39,8 +48,11 @@ const SignIn: React.FC = () => {
                             </div>
 
                             <div className="mt-5">
-                                <button className="py-2 px-4 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">
-                                    SIGN IN
+                                <button className="py-2 px-4 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg flex justify-center items-center"
+                                    disabled={isLoading}>
+                                    {isLoading ? (
+                                       <ThreeDots width="30" height="30" radius="9" color="#fff" ariaLabel="three-dots-loading" visible={true} /> 
+                                    ) : ('SIGN IN')}
                                 </button>
                             </div>
                         </form>

@@ -1,8 +1,29 @@
 import React from "react";
 import Menu from '../shared/menu';
 import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const Order: React.FC = () => {
+
+    const navigate = useNavigate();
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+
+        Swal.fire({
+            title: "Thank You for Your Order!",
+            text: "We're processing your order and will notify you once it’s ready",
+            icon: "success",
+            draggable: true,
+            confirmButtonText: "View Order Details",
+            timer: 2000,
+            allowOutsideClick: false,
+            showConfirmButton: false,
+            didClose: () => {
+                navigate("/order-detail");
+            }
+        });
+    }
 
     return (
         <div>
@@ -13,7 +34,7 @@ const Order: React.FC = () => {
             <section className="max-w-[800px] mx-auto px-4 my-32 select-none outline-none">
                 <h1 className="text-3xl font-bold text-center mb-5 text-blue-600">Order Information</h1>
 
-                <form className="bg-white border-2 border-blue-200 shadow-lg rounded-lg p-8 space-y-6">
+                <form onSubmit={handleSubmit} className="bg-white border-2 border-blue-200 shadow-lg rounded-lg p-8 space-y-6">
                     <div className="grid grid-cols-2 gap-4">
                         <div>
                             <label htmlFor="fullName" className="block text-gray-700 font-medium mb-2">Full Name</label>
