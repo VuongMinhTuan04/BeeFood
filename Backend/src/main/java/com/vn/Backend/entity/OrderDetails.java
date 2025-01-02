@@ -14,6 +14,7 @@ public class OrderDetails {
     private Long id;
     private Integer quantity;
     private BigDecimal price;
+    private String status;
 
     @ManyToOne
     @JoinColumn(name = "orders")

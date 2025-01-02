@@ -1,0 +1,2340 @@
+27-11-2024 16:59:18.200 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 16100 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+27-11-2024 16:59:18.204 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+27-11-2024 16:59:18.259 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+27-11-2024 16:59:18.260 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+27-11-2024 16:59:19.054 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-11-2024 16:59:19.145 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 85 ms. Found 9 JPA repository interfaces.
+27-11-2024 16:59:19.651 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+27-11-2024 16:59:19.660 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+27-11-2024 16:59:19.662 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+27-11-2024 16:59:19.662 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.30]
+27-11-2024 16:59:19.735 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+27-11-2024 16:59:19.736 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1475 ms
+27-11-2024 16:59:20.024 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-11-2024 16:59:20.138 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+27-11-2024 16:59:20.235 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+27-11-2024 16:59:20.711 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+27-11-2024 16:59:20.759 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+27-11-2024 16:59:21.033 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@584315db
+27-11-2024 16:59:21.035 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+27-11-2024 16:59:21.118 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+27-11-2024 16:59:22.550 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+27-11-2024 16:59:22.553 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-11-2024 16:59:23.006 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-11-2024 16:59:23.022 [restartedMain] [TechZone, ] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+27-11-2024 16:59:23.491 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+27-11-2024 16:59:23.511 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+27-11-2024 16:59:23.516 [restartedMain] [TechZone, ] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+27-11-2024 16:59:23.519 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-11-2024 16:59:23.522 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+27-11-2024 16:59:23.524 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+27-11-2024 16:59:23.538 [restartedMain] [TechZone, ] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+27-11-2024 16:59:23.554 [restartedMain] [TechZone, ] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+27-11-2024 17:00:26.297 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 12108 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+27-11-2024 17:00:26.299 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+27-11-2024 17:00:26.362 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+27-11-2024 17:00:26.363 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+27-11-2024 17:00:27.338 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+27-11-2024 17:00:27.456 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 110 ms. Found 9 JPA repository interfaces.
+27-11-2024 17:00:28.574 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+27-11-2024 17:00:28.603 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+27-11-2024 17:00:28.613 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+27-11-2024 17:00:28.614 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.30]
+27-11-2024 17:00:28.724 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+27-11-2024 17:00:28.725 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2361 ms
+27-11-2024 17:00:29.155 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+27-11-2024 17:00:29.298 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+27-11-2024 17:00:29.369 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+27-11-2024 17:00:29.944 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+27-11-2024 17:00:30.003 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+27-11-2024 17:00:30.345 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@663d5478
+27-11-2024 17:00:30.348 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+27-11-2024 17:00:30.425 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+27-11-2024 17:00:32.637 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+27-11-2024 17:00:32.642 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+27-11-2024 17:00:33.425 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+27-11-2024 17:00:33.488 [restartedMain] [TechZone, ] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+27-11-2024 17:00:34.088 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+27-11-2024 17:00:34.111 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+27-11-2024 17:00:34.135 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+27-11-2024 17:00:34.150 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 8.555 seconds (process running for 9.831)
+27-11-2024 17:00:37.710 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+27-11-2024 17:00:37.712 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+27-11-2024 17:00:37.715 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+27-11-2024 17:00:37.891 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:00:37.939 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:00:37.964 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:00:37.969 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:00:38.017 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:00:38.022 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.home - [ProductController][home] [response] Find All Successfully!
+27-11-2024 17:01:13.111 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:01:13.161 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+27-11-2024 17:01:13.168 [http-nio-8080-exec-2] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findById - [ProductController][findProductByCategory] [response] Find By Id Successfully!
+27-11-2024 17:02:22.702 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:22.723 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:02:22.725 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:22.842 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:02:22.842 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:02:22.844 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:02:22.846 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:02:22.853 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:02:22.855 [http-nio-8080-exec-5] [TechZone, ] INFO  v.c.t.c.customer.ProductController.home - [ProductController][home] [response] Find All Successfully!
+27-11-2024 17:02:26.582 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:02:26.584 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:26.586 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:02:26.587 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:26.613 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:02:26.620 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:02:26.622 [http-nio-8080-exec-3] [TechZone, ] INFO  v.c.t.c.customer.CartController.home - [CartController][home] [response] Show all
+27-11-2024 17:02:28.894 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:02:28.896 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:02:28.898 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:02:28.901 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:02:28.909 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:02:28.913 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.customer.ProductController.home - [ProductController][home] [response] Find All Successfully!
+27-11-2024 17:02:30.807 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:02:30.810 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:30.814 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:02:30.819 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:30.825 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:02:30.838 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.products=? 
+        and c1_0.username=?
+27-11-2024 17:02:30.869 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    insert 
+    into
+        cart
+        (date, name, photo, price, products, quantity, total, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?) 
+    returning id
+27-11-2024 17:02:30.924 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:02:30.941 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    update
+        products 
+    set
+        category=?,
+        date=?,
+        description=?,
+        name=?,
+        photo=?,
+        price=?,
+        quantity=? 
+    where
+        id=?
+27-11-2024 17:02:30.953 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.CartController.buy - [CartController][buy] [response] Buy Successfully!
+27-11-2024 17:02:30.974 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:02:30.977 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:30.979 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:02:30.982 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:02:30.987 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:02:30.989 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:02:30.995 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:02:30.997 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.customer.CartController.home - [CartController][home] [response] Show all
+27-11-2024 17:03:04.004 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:03:04.006 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:04.009 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:03:04.011 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:04.013 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        p1_0.id,
+        c2_0.id,
+        c2_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        c1_0.quantity,
+        c1_0.total,
+        u1_0.username,
+        u1_0.address,
+        u1_0.avatar,
+        u1_0.email,
+        u1_0.fullname,
+        u1_0.password,
+        u1_0.phone,
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        cart c1_0 
+    left join
+        products p1_0 
+            on p1_0.id=c1_0.products 
+    left join
+        categories c2_0 
+            on c2_0.id=p1_0.category 
+    left join
+        accounts u1_0 
+            on u1_0.username=c1_0.username 
+    left join
+        authorities a1_0 
+            on u1_0.username=a1_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        c1_0.id=?
+27-11-2024 17:03:04.022 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    update
+        products 
+    set
+        category=?,
+        date=?,
+        description=?,
+        name=?,
+        photo=?,
+        price=?,
+        quantity=? 
+    where
+        id=?
+27-11-2024 17:03:04.024 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    update
+        cart 
+    set
+        date=?,
+        name=?,
+        photo=?,
+        price=?,
+        products=?,
+        quantity=?,
+        total=?,
+        username=? 
+    where
+        id=?
+27-11-2024 17:03:04.026 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:03:04.029 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.CartController.update - [CartController][update] [response] Update Successfully!
+27-11-2024 17:03:04.038 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:03:04.039 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:04.041 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:03:04.042 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:04.044 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:03:04.045 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:03:04.049 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:03:04.051 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.customer.CartController.home - [CartController][home] [response] Show all
+27-11-2024 17:03:24.518 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:24.520 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:03:24.522 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:24.527 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        o1_0.id,
+        o1_0.username,
+        o1_0.date,
+        o1_0.status,
+        o1_0.total 
+    from
+        orders o1_0 
+    where
+        o1_0.username=?
+27-11-2024 17:03:24.533 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.customer.OrderController.home - [OrderController][home] [response] Find All Successfully!
+27-11-2024 17:03:24.566 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:03:24.574 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:03:24.576 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:03:39.803 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.security.LogOutController.logoutSuccess - [LogOutController][logoutSuccess] [response] Log Out Successfully!
+27-11-2024 17:03:42.936 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:42.940 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:03:42.942 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:03:43.028 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:03:43.030 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:03:43.031 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:03:43.032 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:03:43.036 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:03:43.038 [http-nio-8080-exec-7] [TechZone, ] INFO  v.c.t.c.customer.ProductController.home - [ProductController][home] [response] Find All Successfully!
+27-11-2024 17:03:45.942 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:03:45.944 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:03:45.945 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:03:45.946 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:03:45.952 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:03:45.958 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.admin.ProductAdminController.home - [ProductAdminController][home] [response] Find all successfully!
+27-11-2024 17:04:06.212 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0
+27-11-2024 17:04:06.215 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:06.217 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:04:06.218 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:06.219 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:04:06.219 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:06.220 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:06.225 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        r1_0.name 
+    from
+        roles r1_0
+27-11-2024 17:04:06.228 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.id,
+        a1_0.username,
+        a1_0.roles 
+    from
+        authorities a1_0
+27-11-2024 17:04:06.231 [http-nio-8080-exec-7] [TechZone, ] INFO  v.c.t.c.admin.AccountAdminController.home - [AccountAdminController][home] [response] Find all successfully!
+27-11-2024 17:04:16.955 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:04:16.956 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:04:16.958 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:04:16.960 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:04:16.962 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:04:16.964 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.admin.ProductAdminController.home - [ProductAdminController][home] [response] Find all successfully!
+27-11-2024 17:04:18.888 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:04:18.894 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:04:18.897 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:04:18.900 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:04:18.909 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:04:18.912 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.admin.ProductAdminController.view - [ProductAdminController][view] [response] Find By Id Successfully!
+27-11-2024 17:04:33.539 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0
+27-11-2024 17:04:33.542 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:33.543 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:04:33.544 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:33.545 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:04:33.548 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:33.550 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:33.552 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        r1_0.name 
+    from
+        roles r1_0
+27-11-2024 17:04:33.554 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.id,
+        a1_0.username,
+        a1_0.roles 
+    from
+        authorities a1_0
+27-11-2024 17:04:33.556 [http-nio-8080-exec-5] [TechZone, ] INFO  v.c.t.c.admin.AccountAdminController.home - [AccountAdminController][home] [response] Find all successfully!
+27-11-2024 17:04:51.198 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:51.200 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:04:51.201 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:51.202 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0
+27-11-2024 17:04:51.203 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:51.203 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:04:51.204 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:04:51.205 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        r1_0.name 
+    from
+        roles r1_0
+27-11-2024 17:04:51.207 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.admin.AccountAdminController.view - [AccountAdminController][view] [response] Find By Id Successfully!
+27-11-2024 17:05:06.452 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:05:06.454 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:06.455 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:06.456 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:06.458 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:05:06.459 [http-nio-8080-exec-2] [TechZone, ] INFO  v.c.t.c.customer.ProductController.home - [ProductController][home] [response] Find All Successfully!
+27-11-2024 17:05:09.858 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+27-11-2024 17:05:09.860 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:09.862 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:05:09.863 [http-nio-8080-exec-2] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] Find Product By Category Successfully!
+27-11-2024 17:05:14.875 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+27-11-2024 17:05:14.876 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:14.879 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:05:14.880 [http-nio-8080-exec-7] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] Find Product By Category Successfully!
+27-11-2024 17:05:24.572 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+27-11-2024 17:05:24.574 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:24.577 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:05:24.578 [http-nio-8080-exec-10] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] Find Product By Category Successfully!
+27-11-2024 17:05:33.565 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+27-11-2024 17:05:33.567 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:33.570 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:05:33.572 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] Find Product By Category Successfully!
+27-11-2024 17:05:33.595 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+27-11-2024 17:05:33.596 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:05:33.598 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:05:33.599 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] Find Product By Category Successfully!
+27-11-2024 17:37:19.898 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.security.LogOutController.logoutSuccess - [LogOutController][logoutSuccess] [response] Log Out Successfully!
+27-11-2024 17:37:28.568 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:37:28.578 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:37:28.580 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:37:28.674 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+27-11-2024 17:37:28.676 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:37:28.679 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:37:28.681 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+27-11-2024 17:37:28.689 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+27-11-2024 17:37:28.691 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.home - [ProductController][home] [response] Find All Successfully!
+27-11-2024 17:42:56.734 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:42:56.737 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:42:56.738 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:42:56.739 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:42:56.741 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:42:56.745 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:42:56.749 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:42:56.750 [http-nio-8080-exec-7] [TechZone, ] INFO  v.c.t.c.customer.CartController.home - [CartController][home] [response] Show all
+27-11-2024 17:48:46.711 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:48:46.714 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:48:46.714 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:48:46.717 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        o1_0.id,
+        o1_0.username,
+        o1_0.date,
+        o1_0.status,
+        o1_0.total 
+    from
+        orders o1_0 
+    where
+        o1_0.username=?
+27-11-2024 17:48:46.719 [http-nio-8080-exec-3] [TechZone, ] INFO  v.c.t.c.customer.OrderController.home - [OrderController][home] [response] Find All Successfully!
+27-11-2024 17:48:46.731 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:48:46.735 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:48:46.738 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:48:54.475 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone 
+    from
+        accounts a1_0 
+    where
+        a1_0.username=?
+27-11-2024 17:48:54.477 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:48:54.479 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:48:54.481 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:48:54.483 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:48:54.485 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        p1_0.id=?
+27-11-2024 17:48:54.490 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.date,
+        c1_0.name,
+        c1_0.photo,
+        c1_0.price,
+        c1_0.products,
+        c1_0.quantity,
+        c1_0.total,
+        c1_0.username 
+    from
+        cart c1_0 
+    where
+        c1_0.username=?
+27-11-2024 17:48:54.491 [http-nio-8080-exec-10] [TechZone, ] INFO  v.c.t.c.customer.CartController.home - [CartController][home] [response] Show all
+27-11-2024 17:49:31.324 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.address,
+        a1_0.avatar,
+        a1_0.email,
+        a1_0.fullname,
+        a1_0.password,
+        a1_0.phone,
+        a2_0.username,
+        a2_0.id,
+        r1_0.name 
+    from
+        accounts a1_0 
+    left join
+        authorities a2_0 
+            on a1_0.username=a2_0.username 
+    left join
+        roles r1_0 
+            on r1_0.name=a2_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:49:31.327 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.roles,
+        a1_0.id,
+        a2_0.username,
+        a2_0.address,
+        a2_0.avatar,
+        a2_0.email,
+        a2_0.fullname,
+        a2_0.password,
+        a2_0.phone 
+    from
+        authorities a1_0 
+    left join
+        accounts a2_0 
+            on a2_0.username=a1_0.username 
+    where
+        a1_0.roles=?
+27-11-2024 17:49:31.328 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        a1_0.username,
+        a1_0.id,
+        r1_0.name 
+    from
+        authorities a1_0 
+    left join
+        roles r1_0 
+            on r1_0.name=a1_0.roles 
+    where
+        a1_0.username=?
+27-11-2024 17:49:31.333 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        o1_0.id,
+        o1_0.username,
+        o1_0.date,
+        o1_0.status,
+        o1_0.total 
+    from
+        orders o1_0 
+    where
+        o1_0.username=?
+27-11-2024 17:49:31.336 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.OrderController.home - [OrderController][home] [response] Find All Successfully!
+27-11-2024 17:49:31.339 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:49:31.341 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 17:49:31.343 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        od1_0.orders,
+        od1_0.id,
+        od1_0.price,
+        p1_0.id,
+        c1_0.id,
+        c1_0.name,
+        p1_0.date,
+        p1_0.description,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity,
+        od1_0.quantity,
+        od1_0.total 
+    from
+        order_details od1_0 
+    left join
+        products p1_0 
+            on p1_0.id=od1_0.product 
+    left join
+        categories c1_0 
+            on c1_0.id=p1_0.category 
+    where
+        od1_0.orders=?
+27-11-2024 18:00:51.656 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+27-11-2024 18:00:51.684 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+27-11-2024 18:00:51.692 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

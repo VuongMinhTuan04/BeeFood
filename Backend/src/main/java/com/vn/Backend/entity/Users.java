@@ -19,8 +19,6 @@ public class Users {
     private String address;
     private String phone;
     private String fullname;
-    private Integer accessFailedCount;
-    private Long lockoutEnd;
     private String photo;
     private Boolean status;
 
@@ -35,10 +33,6 @@ public class Users {
     @JsonIgnore
     @OneToMany(mappedBy = "users")
     private List<Carts> carts;
-
-    @JsonIgnore
-    @OneToMany(mappedBy = "users")
-    private List<Payments> payments;
 
     @JsonIgnore
     @OneToMany(mappedBy = "users")

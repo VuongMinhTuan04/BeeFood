@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
 
@@ -20,8 +21,8 @@ public class Foods {
     private Integer quantity;
     private String photo;
 
-    @Temporal(TemporalType.DATE)
-    private Date date;
+    @Temporal(TemporalType.TIMESTAMP)
+    private Timestamp date;
     private String description;
     private Boolean status;
 
@@ -32,10 +33,6 @@ public class Foods {
     @JsonIgnore
     @OneToMany(mappedBy = "foods")
     private List<Carts> carts;
-
-    @JsonIgnore
-    @OneToMany(mappedBy = "foods")
-    private List<FoodDiscounts> foodDiscounts;
 
     @ManyToOne
     @JoinColumn(name = "categories")

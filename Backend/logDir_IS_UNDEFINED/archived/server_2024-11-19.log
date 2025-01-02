@@ -1,0 +1,2168 @@
+19-11-2024 13:40:36.364 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 15748 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 13:40:36.369 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 13:40:36.426 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 13:40:36.427 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 13:40:37.505 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 13:40:37.653 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 127 ms. Found 2 JPA repository interfaces.
+19-11-2024 13:40:39.461 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 13:40:39.493 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:40:39.499 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 13:40:39.499 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 13:40:39.588 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 13:40:39.589 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3159 ms
+19-11-2024 13:40:39.867 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 13:40:40.097 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 13:40:40.222 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 13:40:40.826 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 13:40:40.883 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 13:40:41.243 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@21741cac
+19-11-2024 13:40:41.246 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 13:40:41.330 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 13:40:42.439 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 13:40:42.442 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:40:42.790 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 13:40:43.203 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 13:40:43.221 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:40:43.238 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 13:40:43.247 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 7.539 seconds (process running for 9.024)
+19-11-2024 13:40:53.075 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:40:53.078 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 13:40:53.080 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 13:40:57.207 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 18216 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 13:40:57.210 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 13:40:57.249 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 13:40:57.249 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 13:40:57.833 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 13:40:57.883 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+19-11-2024 13:40:58.343 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 13:40:58.353 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:40:58.356 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 13:40:58.356 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 13:40:58.408 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 13:40:58.408 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1158 ms
+19-11-2024 13:40:58.530 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 13:40:58.573 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 13:40:58.598 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 13:40:58.851 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 13:40:58.882 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 13:40:59.031 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fe1b1cc
+19-11-2024 13:40:59.032 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 13:40:59.064 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 13:41:00.208 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 13:41:00.212 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:41:00.538 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 13:41:00.927 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 13:41:00.946 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:41:00.966 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 13:41:00.976 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 4.253 seconds (process running for 5.011)
+19-11-2024 13:41:01.101 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:41:01.104 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 13:41:01.107 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 13:41:04.309 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 16700 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 13:41:04.312 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 13:41:04.360 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 13:41:04.361 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 13:41:04.893 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 13:41:04.946 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+19-11-2024 13:41:05.342 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 13:41:05.350 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:41:05.352 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 13:41:05.353 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 13:41:05.387 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 13:41:05.388 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1025 ms
+19-11-2024 13:41:05.561 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 13:41:05.620 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 13:41:05.655 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 13:41:05.873 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 13:41:05.897 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 13:41:06.037 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ae0131c
+19-11-2024 13:41:06.039 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 13:41:06.083 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 13:41:07.132 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 13:41:07.138 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:41:07.517 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 13:41:07.937 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 13:41:07.962 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:41:07.993 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 13:41:08.007 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 4.121 seconds (process running for 4.697)
+19-11-2024 13:41:26.485 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:41:26.487 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 13:41:26.489 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 13:46:52.618 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 20252 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 13:46:52.621 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 13:46:52.671 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 13:46:52.671 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 13:46:53.295 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 13:46:53.349 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+19-11-2024 13:46:53.844 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 13:46:53.855 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:46:53.859 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 13:46:53.859 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 13:46:53.908 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 13:46:53.909 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1237 ms
+19-11-2024 13:46:54.035 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 13:46:54.094 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 13:46:54.125 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 13:46:54.359 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 13:46:54.382 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 13:46:54.509 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@50db7894
+19-11-2024 13:46:54.510 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 13:46:54.543 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 13:46:55.302 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 13:46:55.306 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 13:46:55.678 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 13:46:56.054 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 13:46:56.076 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 13:46:56.095 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 13:46:56.107 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 4.021 seconds (process running for 4.893)
+19-11-2024 13:48:14.542 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 13:48:14.543 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 13:48:14.545 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 13:48:36.641 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 13:48:36.680 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:36.702 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:36.704 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:36.705 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:36.711 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 13:48:36.714 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-16 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-16 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-16 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-16 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-16 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-16 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-16 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-16 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-16 4 Headphone  ]
+19-11-2024 13:48:49.488 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [request] 1
+19-11-2024 13:48:49.512 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+19-11-2024 13:48:49.514 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:49.518 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 13:48:49.520 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-16 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-16 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-16 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-16 1 Laptop  ]
+19-11-2024 13:48:52.828 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [request] 2
+19-11-2024 13:48:52.829 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+19-11-2024 13:48:52.831 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:52.833 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 13:48:52.834 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-16 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-16 2 Mouse  ]
+19-11-2024 13:48:55.058 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [request] 3
+19-11-2024 13:48:55.059 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+19-11-2024 13:48:55.061 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:55.064 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 13:48:55.065 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-16 3 Keyboard  ]
+19-11-2024 13:48:56.888 [http-nio-8080-exec-3] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [request] 4
+19-11-2024 13:48:56.890 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+19-11-2024 13:48:56.892 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:56.894 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 13:48:56.897 [http-nio-8080-exec-3] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-16 4 Headphone  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-16 4 Headphone  ]
+19-11-2024 13:48:59.642 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 13:48:59.643 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:59.645 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:59.646 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:59.648 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 13:48:59.651 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 13:48:59.652 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-16 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-16 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-16 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-16 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-16 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-16 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-16 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-16 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-16 4 Headphone  ]
+19-11-2024 14:02:27.147 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:02:27.154 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:27.160 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:27.162 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:27.163 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:27.167 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:02:27.168 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:02:29.497 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:02:29.501 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:29.504 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:29.508 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:29.510 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:02:29.514 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:02:29.516 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:02:34.779 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:02:34.796 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:02:34.803 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:02:37.051 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 18748 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:02:37.054 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:02:37.098 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:02:37.098 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:02:37.625 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:02:37.677 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:02:38.097 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:02:38.106 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:02:38.108 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:02:38.108 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:02:38.151 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:02:38.151 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1052 ms
+19-11-2024 14:02:38.278 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:02:38.344 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:02:38.385 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:02:38.669 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:02:38.698 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:02:38.839 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24fadd7d
+19-11-2024 14:02:38.840 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:02:38.879 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:02:39.700 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:02:39.702 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:02:39.973 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:02:40.276 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:02:40.293 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:02:40.309 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:02:40.318 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.706 seconds (process running for 4.502)
+19-11-2024 14:04:48.465 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:04:48.467 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:04:48.470 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:04:52.094 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 6248 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:04:52.097 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:04:52.148 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:04:52.149 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:04:52.673 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:04:52.725 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:04:53.120 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:04:53.128 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:04:53.131 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:04:53.131 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:04:53.170 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:04:53.171 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1021 ms
+19-11-2024 14:04:53.284 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:04:53.330 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:04:53.360 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:04:53.620 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:04:53.648 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:04:53.788 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73da7c24
+19-11-2024 14:04:53.791 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:04:53.821 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:04:54.544 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:04:54.546 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:04:54.839 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:04:55.147 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:04:55.164 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:04:55.180 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:04:55.189 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.523 seconds (process running for 4.125)
+19-11-2024 14:05:02.788 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:05:02.789 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:05:02.793 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 3 ms
+19-11-2024 14:05:02.958 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:05:02.979 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:02.999 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:03.001 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:03.004 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:03.016 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:05:03.023 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:05:04.129 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:05:04.133 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:04.137 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:04.141 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:04.143 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:05:04.147 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:05:04.150 [http-nio-8080-exec-2] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:05:13.905 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:05:13.907 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:05:13.910 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:05:15.922 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 22032 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:05:15.925 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:05:15.967 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:05:15.967 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:05:16.641 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:05:16.708 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:05:17.311 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:05:17.317 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:05:17.319 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:05:17.319 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:05:17.352 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:05:17.352 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1385 ms
+19-11-2024 14:05:17.524 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:05:17.581 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:05:17.635 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:05:17.945 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:05:17.978 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:05:18.155 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a0dfe64
+19-11-2024 14:05:18.157 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:05:18.207 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:05:19.149 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:05:19.153 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:05:19.414 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:05:19.711 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:05:19.725 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:05:19.741 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:05:19.750 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 4.274 seconds (process running for 5.033)
+19-11-2024 14:06:02.714 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:06:02.714 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:06:02.716 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 14:06:02.875 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:06:02.901 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:06:02.922 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:06:02.925 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:06:02.928 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:06:02.937 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:06:02.945 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:07:30.672 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:07:30.676 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:07:30.681 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:07:33.101 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 19896 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:07:33.104 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:07:33.150 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:07:33.151 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:07:33.682 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:07:33.741 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:07:34.097 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:07:34.104 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:07:34.106 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:07:34.107 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:07:34.141 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:07:34.141 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 989 ms
+19-11-2024 14:07:34.253 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:07:34.285 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:07:34.307 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:07:34.534 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:07:34.557 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:07:34.673 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@293ca8b5
+19-11-2024 14:07:34.675 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:07:34.708 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:07:35.408 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:07:35.411 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:07:35.681 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:07:35.947 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:07:35.961 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:07:35.976 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:07:35.984 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.359 seconds (process running for 4.025)
+19-11-2024 14:08:01.635 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:08:01.636 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:08:01.639 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+19-11-2024 14:08:01.771 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:08:01.791 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:08:01.807 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:08:01.808 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:08:01.811 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:08:01.819 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:08:01.825 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:09:57.923 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:09:57.925 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:09:57.927 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:09:59.748 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 13496 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:09:59.752 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:09:59.805 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:09:59.805 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:10:00.281 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:10:00.336 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:10:00.681 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:10:00.689 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:10:00.692 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:10:00.692 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:10:00.727 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:10:00.727 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 921 ms
+19-11-2024 14:10:00.840 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:10:00.887 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:10:00.912 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:10:01.111 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:10:01.131 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:10:01.241 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64c51ef4
+19-11-2024 14:10:01.242 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:10:01.270 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:10:01.942 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:10:01.945 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:10:02.206 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:10:02.507 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:10:02.521 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:10:02.533 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:10:02.540 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.214 seconds (process running for 3.867)
+19-11-2024 14:10:08.713 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:10:08.714 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:10:08.715 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+19-11-2024 14:10:08.819 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:10:08.838 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:10:08.851 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:10:08.852 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:10:08.853 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:10:08.858 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:10:08.862 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:10:33.671 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:10:33.674 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:10:33.676 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:10:37.789 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 6764 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:10:37.793 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:10:37.836 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:10:37.836 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:10:38.345 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:10:38.399 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:10:38.801 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:10:38.808 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:10:38.810 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:10:38.810 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:10:38.842 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:10:38.842 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1005 ms
+19-11-2024 14:10:38.946 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:10:38.990 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:10:39.018 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:10:39.273 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:10:39.294 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:10:39.509 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64c51ef4
+19-11-2024 14:10:39.510 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:10:39.538 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:10:40.308 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:10:40.311 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:10:40.576 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:10:40.853 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:10:40.868 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:10:40.888 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:10:40.898 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.515 seconds (process running for 4.16)
+19-11-2024 14:11:07.884 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:11:07.884 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:11:07.885 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 14:11:08.033 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:11:08.054 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:08.070 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:08.071 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:08.072 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:08.078 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:11:08.083 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:11:24.304 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:11:24.305 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:24.306 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:24.307 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:24.308 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:24.309 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:11:24.310 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:11:28.657 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:11:28.658 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:28.660 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:28.661 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:28.662 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:28.664 [http-nio-8080-exec-6] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:11:28.666 [http-nio-8080-exec-6] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:11:49.051 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:11:49.053 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:49.055 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:49.055 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:49.056 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:11:49.063 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:11:49.065 [http-nio-8080-exec-3] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:03.556 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:03.557 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:03.559 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:03.560 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:03.561 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:03.564 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:03.566 [http-nio-8080-exec-5] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:08.986 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:08.989 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:08.991 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:08.992 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:08.994 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:08.996 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:08.997 [http-nio-8080-exec-7] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:12.756 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:12.759 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:12.760 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:12.761 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:12.762 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:12.764 [http-nio-8080-exec-8] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:12.766 [http-nio-8080-exec-8] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:35.930 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:35.932 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:35.934 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:35.936 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:35.937 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:35.940 [http-nio-8080-exec-3] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:35.942 [http-nio-8080-exec-3] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:41.039 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:41.043 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:41.046 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:41.050 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:41.055 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:41.064 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:41.067 [http-nio-8080-exec-5] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:50.035 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:50.039 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:50.041 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:50.044 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:50.048 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:50.057 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:50.063 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:12:56.533 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:12:56.536 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:56.542 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:56.545 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:56.548 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:12:56.558 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:12:56.563 [http-nio-8080-exec-10] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:13:37.085 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:13:37.086 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:37.089 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:37.091 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:37.092 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:37.094 [http-nio-8080-exec-2] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:13:37.095 [http-nio-8080-exec-2] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:13:39.540 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:13:39.542 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:13:39.544 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:13:41.383 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 9604 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:13:41.385 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:13:41.437 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:13:41.438 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:13:41.920 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:13:41.974 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:13:42.365 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:13:42.373 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:13:42.375 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:13:42.376 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:13:42.420 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:13:42.420 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 981 ms
+19-11-2024 14:13:42.543 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:13:42.608 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:13:42.649 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:13:42.912 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:13:42.939 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:13:43.083 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73da7c24
+19-11-2024 14:13:43.085 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:13:43.125 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:13:43.978 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:13:43.980 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:13:44.259 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:13:44.583 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:13:44.598 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:13:44.613 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:13:44.621 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.677 seconds (process running for 4.345)
+19-11-2024 14:13:46.924 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:13:46.925 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:13:46.927 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+19-11-2024 14:13:47.155 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:13:47.183 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:47.204 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:47.206 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:47.209 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:47.219 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:13:47.228 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:13:49.284 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:13:49.285 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:49.287 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:49.289 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:49.290 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:13:49.291 [http-nio-8080-exec-7] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:13:49.292 [http-nio-8080-exec-7] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:14:02.823 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:14:02.827 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:14:02.832 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:14:02.837 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:14:02.844 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:14:02.853 [http-nio-8080-exec-4] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:14:02.859 [http-nio-8080-exec-4] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:16:47.449 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:16:47.451 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:16:47.452 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:16:47.453 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:16:47.453 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:16:47.456 [http-nio-8080-exec-10] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:16:47.457 [http-nio-8080-exec-10] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:18:21.222 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:18:21.224 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:18:21.226 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:18:24.736 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 20632 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:18:24.738 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:18:24.777 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:18:24.777 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:18:25.275 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:18:25.327 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:18:25.700 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:18:25.709 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:18:25.711 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:18:25.712 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:18:25.749 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:18:25.750 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 972 ms
+19-11-2024 14:18:25.850 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:18:25.889 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:18:25.920 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:18:26.164 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:18:26.187 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:18:26.312 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4463f042
+19-11-2024 14:18:26.314 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:18:26.342 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:18:27.055 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:18:27.057 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:18:27.284 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:18:27.336 [restartedMain] [TechZone, ] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'signUpController' method 
+vn.com.techzone.controller.security.SignUpController#index()
+to {GET [/sign-in]}: There is already 'signInController' bean method
+vn.com.techzone.controller.security.SignInController#index() mapped.
+19-11-2024 14:18:27.337 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:18:27.338 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:18:27.341 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:18:27.344 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+19-11-2024 14:18:27.354 [restartedMain] [TechZone, ] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+19-11-2024 14:18:27.368 [restartedMain] [TechZone, ] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'signUpController' method 
+vn.com.techzone.controller.security.SignUpController#index()
+to {GET [/sign-in]}: There is already 'signInController' bean method
+vn.com.techzone.controller.security.SignInController#index() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at vn.com.techzone.TechZoneApplication.main(TechZoneApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'signUpController' method 
+vn.com.techzone.controller.security.SignUpController#index()
+to {GET [/sign-in]}: There is already 'signInController' bean method
+vn.com.techzone.controller.security.SignInController#index() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 21 common frames omitted
+19-11-2024 14:18:44.996 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 7204 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:18:44.999 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:18:45.044 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 14:18:45.045 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 14:18:45.647 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:18:45.709 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 56 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:18:46.087 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:18:46.093 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:18:46.096 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:18:46.097 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:18:46.131 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:18:46.132 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
+19-11-2024 14:18:46.237 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:18:46.274 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 14:18:46.304 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:18:46.510 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:18:46.532 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 14:18:46.659 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f837958
+19-11-2024 14:18:46.660 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 14:18:46.689 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:18:47.348 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:18:47.351 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:18:47.599 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:18:47.891 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:18:47.905 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:18:47.919 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:18:47.926 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.336 seconds (process running for 3.927)
+19-11-2024 14:18:57.225 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 14:18:57.225 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 14:18:57.227 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 14:18:57.359 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:18:57.376 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:18:57.391 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:18:57.393 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:18:57.394 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:18:57.400 [http-nio-8080-exec-1] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:18:57.404 [http-nio-8080-exec-1] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:19:09.695 [http-nio-8080-exec-5] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [request] 4
+19-11-2024 14:19:09.711 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0 
+    where
+        p1_0.category=?
+19-11-2024 14:19:09.713 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:19:09.716 [http-nio-8080-exec-5] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:19:09.717 [http-nio-8080-exec-5] [TechZone, ] INFO  v.c.t.c.customer.ProductController.findProductByCategory - [ProductController][findProductByCategory] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:19:18.050 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:19:18.051 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:19:18.053 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:19:18.054 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:19:18.055 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:19:18.057 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:19:18.058 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:27:15.483 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        p1_0.id,
+        p1_0.category,
+        p1_0.date,
+        p1_0.name,
+        p1_0.photo,
+        p1_0.price,
+        p1_0.quantity 
+    from
+        products p1_0
+19-11-2024 14:27:15.492 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:27:15.497 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:27:15.498 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:27:15.500 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0 
+    where
+        c1_0.id=?
+19-11-2024 14:27:15.504 [http-nio-8080-exec-9] [TechZone, ] DEBUG org.hibernate.SQL.logStatement - 
+    select
+        c1_0.id,
+        c1_0.name 
+    from
+        categories c1_0
+19-11-2024 14:27:15.506 [http-nio-8080-exec-9] [TechZone, ] INFO  v.c.t.c.customer.ProductController.index - [ProductController][index] [response] categories: [1 Laptop , 2 Mouse , 3 Keyboard , 4 Headphone ], products: [1 Laptop ASUS TUF Gaming 10 1000 Laptop ASUS TUF Gaming.jpg 2024-11-19 1 Laptop  , 2 Laptop Dell Inspiron 15 15 800 Laptop Dell Inspiron 15.jpg 2024-11-19 1 Laptop  , 3 Laptop Gaming Acer Nitro V 12 1200 Laptop Gaming Acer Nitro V.jpg 2024-11-19 1 Laptop  , 4 Laptop MSI Gaming Bravo 15 8 1100 Laptop MSI Gaming Bravo 15.jpg 2024-11-19 1 Laptop  , 5 LED Light Gaming Headphone 20 50 LED Light Gaming Headphone.jpg 2024-11-19 4 Headphone  , 6 Logitech G PRO Keyboard 30 120 Logitech G PRO Keyboard.png 2024-11-19 3 Keyboard  , 7 Redragon M612 Predator Mouse 25 40 Redragon M612 Predator.jpg 2024-11-19 2 Mouse  , 8 Redragon M908 Impact Mouse 18 50 Redragon M908 Impact.jpg 2024-11-19 2 Mouse  , 9 Wireless Headphone BO12 10 80 Wireless Headphone BO12.jpg 2024-11-19 4 Headphone  ]
+19-11-2024 14:55:00.583 [File Watcher] [TechZone, ] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+19-11-2024 14:55:00.616 [Thread-5] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:55:00.664 [Thread-5] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:55:00.681 [Thread-5] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 14:55:00.687 [Thread-5] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 14:55:00.903 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 7204 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:55:00.903 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:55:01.093 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:55:01.107 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:55:01.214 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:55:01.216 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:55:01.216 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:55:01.216 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:55:01.238 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:55:01.239 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 333 ms
+19-11-2024 14:55:01.288 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:55:01.293 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:55:01.312 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:55:01.314 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Starting...
+19-11-2024 14:55:01.387 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@3927aaba
+19-11-2024 14:55:01.388 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Start completed.
+19-11-2024 14:55:01.403 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:55:01.443 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:55:01.443 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:55:01.501 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:55:01.612 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:55:01.619 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:55:01.622 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:55:01.626 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 0.783 seconds (process running for 2177.628)
+19-11-2024 14:55:01.628 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+19-11-2024 14:55:16.233 [File Watcher] [TechZone, ] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+19-11-2024 14:55:16.235 [Thread-7] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:55:16.283 [Thread-7] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:55:16.284 [Thread-7] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+19-11-2024 14:55:16.286 [Thread-7] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown completed.
+19-11-2024 14:55:16.390 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 7204 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 14:55:16.391 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 14:55:16.567 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 14:55:16.584 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+19-11-2024 14:55:16.690 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 14:55:16.690 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:55:16.691 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 14:55:16.691 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 14:55:16.710 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 14:55:16.711 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 316 ms
+19-11-2024 14:55:16.757 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 14:55:16.761 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 14:55:16.775 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 14:55:16.777 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-3 - Starting...
+19-11-2024 14:55:16.827 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@623363d6
+19-11-2024 14:55:16.828 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-3 - Start completed.
+19-11-2024 14:55:16.840 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 14:55:16.886 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 14:55:16.887 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:55:16.942 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 14:55:17.029 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 14:55:17.037 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 14:55:17.040 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 14:55:17.045 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 0.69 seconds (process running for 2193.046)
+19-11-2024 14:55:17.048 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+19-11-2024 14:55:17.598 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 14:55:17.598 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-3 - Shutdown initiated...
+19-11-2024 14:55:17.654 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-3 - Shutdown completed.
+19-11-2024 15:30:51.242 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 15192 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 15:30:51.244 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 15:30:51.293 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 15:30:51.293 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 15:30:51.766 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 15:30:51.817 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+19-11-2024 15:30:52.209 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 15:30:52.218 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:30:52.220 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 15:30:52.220 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 15:30:52.262 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 15:30:52.262 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 968 ms
+19-11-2024 15:30:52.383 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 15:30:52.450 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 15:30:52.484 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 15:30:52.749 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 15:30:52.776 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 15:30:52.906 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55b6ffd0
+19-11-2024 15:30:52.908 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 15:30:52.943 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 15:30:53.782 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 15:30:53.785 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 15:30:54.058 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 15:30:54.460 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 15:30:54.474 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:30:54.488 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 15:30:54.497 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.676 seconds (process running for 4.4)
+19-11-2024 15:30:56.932 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 15:30:56.932 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 15:30:56.933 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 15:49:07.951 [File Watcher] [TechZone, ] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 3 class path changes (1 addition, 0 deletions, 2 modifications)
+19-11-2024 15:49:07.964 [Thread-5] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:49:08.024 [Thread-5] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 15:49:08.033 [Thread-5] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 15:49:08.040 [Thread-5] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+19-11-2024 15:49:08.212 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 15192 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 15:49:08.215 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 15:49:08.755 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 15:49:08.799 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+19-11-2024 15:49:09.030 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 15:49:09.032 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:49:09.033 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 15:49:09.033 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 15:49:09.062 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 15:49:09.062 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 838 ms
+19-11-2024 15:49:09.126 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 15:49:09.133 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 15:49:09.150 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 15:49:09.152 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Starting...
+19-11-2024 15:49:09.252 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@261304b4
+19-11-2024 15:49:09.253 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Start completed.
+19-11-2024 15:49:09.270 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 15:49:09.418 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 15:49:09.419 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 15:49:09.598 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 15:49:09.772 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 15:49:09.782 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:49:09.785 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 15:49:09.790 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 1.655 seconds (process running for 1099.693)
+19-11-2024 15:49:09.793 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+19-11-2024 15:49:22.712 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 15:49:22.712 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 15:49:22.713 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 15:52:16.097 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 15:52:16.098 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+19-11-2024 15:52:16.102 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown completed.
+19-11-2024 15:52:19.323 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 15892 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+19-11-2024 15:52:19.325 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+19-11-2024 15:52:19.375 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19-11-2024 15:52:19.376 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19-11-2024 15:52:19.943 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19-11-2024 15:52:19.997 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+19-11-2024 15:52:20.477 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+19-11-2024 15:52:20.487 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:52:20.490 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+19-11-2024 15:52:20.491 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.31]
+19-11-2024 15:52:20.541 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+19-11-2024 15:52:20.541 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1165 ms
+19-11-2024 15:52:20.674 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+19-11-2024 15:52:20.766 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+19-11-2024 15:52:20.809 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+19-11-2024 15:52:21.094 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+19-11-2024 15:52:21.124 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+19-11-2024 15:52:21.264 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@533df1d4
+19-11-2024 15:52:21.266 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+19-11-2024 15:52:21.305 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+19-11-2024 15:52:22.231 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+19-11-2024 15:52:22.233 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 15:52:22.471 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19-11-2024 15:52:22.780 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+19-11-2024 15:52:22.795 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+19-11-2024 15:52:22.810 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+19-11-2024 15:52:22.819 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 3.985 seconds (process running for 4.614)
+19-11-2024 15:52:51.262 [http-nio-8080-exec-1] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19-11-2024 15:52:51.262 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+19-11-2024 15:52:51.263 [http-nio-8080-exec-1] [TechZone, ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+19-11-2024 16:07:20.173 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+19-11-2024 16:07:20.177 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+19-11-2024 16:07:20.180 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigDecimal;
-import java.util.Date;
 
 @Data
 @Entity
@@ -18,9 +17,6 @@ public class Carts {
     private Integer quantity;
     private BigDecimal total;
     private String photo;
-
-    @Temporal(TemporalType.TIMESTAMP)
-    private Date date;
 
     @ManyToOne
     @JoinColumn(name = "users")

@@ -1,0 +1,63 @@
+17-12-2024 21:39:47.858 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 18016 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+17-12-2024 21:39:47.871 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2024 21:39:47.926 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17-12-2024 21:39:47.927 [restartedMain] [TechZone, ] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17-12-2024 21:39:48.721 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2024 21:39:48.786 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 57 ms. Found 9 JPA repository interfaces.
+17-12-2024 21:39:49.336 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+17-12-2024 21:39:49.346 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+17-12-2024 21:39:49.348 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2024 21:39:49.348 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.30]
+17-12-2024 21:39:49.413 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2024 21:39:49.414 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1486 ms
+17-12-2024 21:39:49.617 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2024 21:39:49.692 [restartedMain] [TechZone, ] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.5.3.Final
+17-12-2024 21:39:49.736 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+17-12-2024 21:39:50.086 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+17-12-2024 21:39:50.117 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+17-12-2024 21:39:50.282 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52c1c0bf
+17-12-2024 21:39:50.284 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+17-12-2024 21:39:50.337 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17-12-2024 21:39:51.493 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17-12-2024 21:39:51.497 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2024 21:39:51.902 [restartedMain] [TechZone, ] INFO  o.s.d.j.r.query.QueryEnhancerFactory.<clinit> - Hibernate is in classpath; If applicable, HQL parser will be used.
+17-12-2024 21:39:52.331 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2024 21:39:52.351 [restartedMain] [TechZone, ] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+17-12-2024 21:39:52.839 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+17-12-2024 21:39:52.858 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+17-12-2024 21:39:52.880 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+17-12-2024 21:39:52.888 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 5.568 seconds (process running for 6.897)
+17-12-2024 21:41:26.909 [File Watcher] [TechZone, ] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+17-12-2024 21:41:26.920 [Thread-5] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+17-12-2024 21:41:27.000 [Thread-5] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2024 21:41:27.015 [Thread-5] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+17-12-2024 21:41:27.029 [Thread-5] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+17-12-2024 21:41:27.279 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarting - Starting TechZoneApplication using Java 17.0.12 with PID 18016 (H:\Graduation Project\TechZone\target\classes started by ASUS in H:\Graduation Project\TechZone)
+17-12-2024 21:41:27.280 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+17-12-2024 21:41:27.805 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17-12-2024 21:41:27.863 [restartedMain] [TechZone, ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 57 ms. Found 9 JPA repository interfaces.
+17-12-2024 21:41:28.090 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port 8080 (http)
+17-12-2024 21:41:28.093 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+17-12-2024 21:41:28.094 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+17-12-2024 21:41:28.094 [restartedMain] [TechZone, ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.30]
+17-12-2024 21:41:28.121 [restartedMain] [TechZone, ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-12-2024 21:41:28.122 [restartedMain] [TechZone, ] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 839 ms
+17-12-2024 21:41:28.167 [restartedMain] [TechZone, ] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+17-12-2024 21:41:28.170 [restartedMain] [TechZone, ] INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+17-12-2024 21:41:28.181 [restartedMain] [TechZone, ] INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+17-12-2024 21:41:28.182 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Starting...
+17-12-2024 21:41:28.267 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@150ca0d0
+17-12-2024 21:41:28.268 [restartedMain] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-2 - Start completed.
+17-12-2024 21:41:28.284 [restartedMain] [TechZone, ] WARN  org.hibernate.orm.deprecation.constructDialect - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17-12-2024 21:41:28.486 [restartedMain] [TechZone, ] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17-12-2024 21:41:28.487 [restartedMain] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17-12-2024 21:41:28.767 [restartedMain] [TechZone, ] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-12-2024 21:41:28.796 [restartedMain] [TechZone, ] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer.configure - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+17-12-2024 21:41:29.159 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+17-12-2024 21:41:29.197 [restartedMain] [TechZone, ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+17-12-2024 21:41:29.205 [restartedMain] [TechZone, ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port 8080 (http) with context path '/'
+17-12-2024 21:41:29.215 [restartedMain] [TechZone, ] INFO  vn.com.techzone.TechZoneApplication.logStarted - Started TechZoneApplication in 2.026 seconds (process running for 103.223)
+17-12-2024 21:41:29.221 [restartedMain] [TechZone, ] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+17-12-2024 22:46:12.518 [SpringApplicationShutdownHook] [TechZone, ] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-12-2024 22:46:12.837 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown initiated...
+17-12-2024 22:46:12.859 [SpringApplicationShutdownHook] [TechZone, ] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-2 - Shutdown completed.
